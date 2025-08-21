@@ -1,6 +1,8 @@
 # Godot 4+ specific ignores
 # Cache and import data, can be rebuilt automatically
 .godot/
+Character
+Tileset
 
 # Any files imported from the editor, such as *.scn.import or *.png.import
 *.import
