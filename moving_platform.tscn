@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://crdha2ig4y4vf"]
+
+[ext_resource type="Script" uid="uid://biihkry8arc6y" path="res://moving_platform.gd" id="1_q06lf"]
+
+[node name="MovingPlatform" type="AnimatableBody2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+script = ExtResource("1_q06lf")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
